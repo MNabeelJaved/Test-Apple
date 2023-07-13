@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background: #ececec;
+  position: fixed;
+  
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 40px;
+  font-size: 12px;
+}
+ul li a:hover {
+  color: rgb(85, 85, 85);
+}
+li .fa-brands {
+  font-size: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+}
+
+/* macbook style */
+
+.macbook15{
+  background-image: url(/Images/hero_macbook_air_15__x63n8tqcpo2u_large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 98.7.5vw;
+  height: 600px;
+  overflow: hidden;
+
+}
+.macbook15 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.macbook15 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  margin-top: 50px;
+}
+.call-to-action {
+  display: flex;
+  justify-content: center;
+}
+.call-to-action p {
+  margin: 5px 30px;
+}
+.macbook15 p {
+  font-size: 25px;
+}
+.img{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  background-image: url(/Images/hero_bts2023_startframe__f787lg06y3ue_large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 98.7.5vw;
+  height: 100vh;
+  /* z-index: -1; */
+  margin-top: 15px;
+  overflow: hidden;
+
+}
+.img h1 {
+  width:40%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 50px;
+}
+.imgp{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  background-image: url(/Images/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 98.7.5vw;
+  height: 100vh;
+  /* z-index: -1; */
+  margin-top: 15px;
+  color: white;
+  overflow: hidden;
+
+}
+.imgp h1 {
+  width:40%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  margin-top: 60px;
+}
+.imgp p {
+  font-size: 30px;
+}
+.images2{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 20px; */
+  align-items: center;
+  padding: 10px;
+
+
+}
+
+.left-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/Images/promo_iphone14_yellow__fnqrkyt3tz22_large.jpg);
+  background-position: center;
+  /* background-size: cover; */
+  width: 49.5%;
+  height: 500px;
+}
+.left-img h1{
+  margin-top: 40px;
+}
+.left-img p{
+  margin-top: 20px;
+}
+.right-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/Images/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 49.5%;
+  height: 500px;
+
+}
+.right-img h1{
+  margin-top: 320px;
+}
+.right-img p{
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+
+
+/* watches */
+.images3{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 20px; */
+  align-items: center;
+  padding: 10px;
+
+}
+
+.left-img1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/Images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg);
+  background-position: center;
+  /* background-size: cover; */
+  width: 49.5%;
+  height: 500px;
+  color: white;
+}
+.left-img1 h1{
+  margin-top: 40px;
+}
+.left-img1 p{
+  margin-top: 20px;
+}
+.right-img1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/Images/promo_ipadpro_refresh__evi9utuixwuq_large.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 49.5%;
+  height: 500px;
+  color: white;
+
+}
+.right-img1 h1{
+  margin-top: 40px;
+}
+.right-img1 p{
+  font-size: 22px;
+  margin-top: 10px;
+}
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  top: 0px;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(224, 224, 224);
+
+}
+.footer1{
+  padding-left: 20px;
+}
+.footer1 .space{
+  padding: 0px 30px;
+  padding-top: 60px;
+
+}
+.footer1 ul{
+  padding: 0px 30px;
+  
+  display: block;
+
+}
+.footer1 ul li{
+  cursor: pointer;
+  margin: 20px 20px;
+
+}
